@@ -94,7 +94,9 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"FLASH-MD", // pack stick
+      pack:"
+ŋąɖɛɛŋ-🇧​​🇴​​🇹​
+", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
@@ -103,7 +105,7 @@ const alea = (ext) => {
       quality: 40,
     });
   } else {
-    repondre("Please mention an image or video!");
+    repondre("4to එක මෙන්ෂන් කරපං....😂");
     return;
   }
 

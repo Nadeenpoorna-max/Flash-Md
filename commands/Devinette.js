@@ -24,96 +24,96 @@ const { france } = require('../framework/france');
 // Set a riddle list with questions and answers
 const devinettes = [
   {
-    question: "I can fly without wings, who am I?",
-    reponse: "The weather",
+    question: "මට පියාපත් නොමැතිව පියාසර කළ හැකිය, මම කවුද?",
+    reponse: "කාලගුණය",
   },
   {
-    question: "I'm always hungry, the more I eat, the fatter I become. Who am I ?",
-    reponse: "A black hole",
+    question: "තරුෂ උගේ කෙල්ල කියල හිතන් ඉන්නේ,කාවද ?",
+    reponse: "දමීෂව 😒",
   },
   {
-    question: "I'm strong when I'm down, but I'm weak when I'm up. Who am I ?",
-    reponse: "The number 6",
+    question: "තරුෂ, නම්බර් එක ඉල්ලුවේ කාගේද ?",
+    reponse: "දමිශාගේ ",
   },
   {
-    question: "I can be short or long, hard or soft, I can be used by anyone, from young children to experienced musicians. Who am I ?",
-    reponse: "A pencil",
+    question: "මහින්ද මහත්තයා නෙලුම් කුලුන හැදුවේ ඇයි ?",
+    reponse: "ඌ නෙමෙයි හැදුවේ,බාස්ලා.. ",
   },
   {
-    question: "I am the beginning of the end, the end of every place. I am the beginning of eternity, the end of time and space. Who am I ?",
-    reponse: "The letter 'e'",
+    question: "*පීකොක්* කියන්නේ ඉංග්‍රීසියෙන් මොනරටද ?",
+    reponse: "ඔව් ",
   },
   {
-    question: "I am white when I am dirty and black when I am clean. Who am I ?",
-    reponse: "A slate",
+    question: "තරුෂ ටෝක් කරන කෙල්ල කවුද? ",
+    reponse: "දමිෂා ",
   },
   {
-    question: "I'm liquid, but if you take water away from me, I become solid. Who am I ?",
-    reponse: "Tea",
+    question: "උබ දැන් මොකද කරන්නේ ?",
+    reponse: "ඒක ඉතිං මම දන්නවා ඈ ...😏",
   },
   {
-    question: "I fly without wings, I cry without eyes. Wherever I am, death always accompanies me. Who am I ?",
-    reponse: "The wind",
+    question: "උබ කැමති ගානක් හිතාගනින්,ඒක 2න් ගුණ කරලා 10ක් එකතු කරන්න.දැන් ඒක 2න් බෙදන්න.දැන් කලින්ම හිතපු ගානෙන් අඩු කරන්න. ",
+    reponse: "5 නේද අවේ...😎",
   },
   {
-    question: "I have towns, but no houses. I have mountains, but no trees. I have water, but no fish. Who am I ?",
-    reponse: "A map",
+    question: "උබ කැමති ගානක් හිතාගනින්,ඒක 2න් ගුණ කරලා 10ක් එකතු කරන්න.දැන් ඒක 2න් බෙදන්න.දැන් කලින්ම හිතපු ගානෙන් අඩු කරන්න. ",
+    reponse: "5 නේද අවේ...😎",
   },
   {
-    question: "I can be read, but you can't write about me. You always give to me, but rarely keep me. Who am I ?",
-    reponse: "A borrowed book",
+    question: "තරුෂ ටෝක් කරන කෙල්ල කවුද?",
+    reponse: "හරියටම හරි...දමිෂා...🤭",
   },
   {
-    question: "I come twice in a week, once in a year, but never in a day. Who am I ?",
-    reponse: "The letter 'E'",
+    question: "තරුෂ ටෝක් කරන කෙල්ල කවුද?",
+    reponse: "හරියටම හරි...දමිෂා...🤭",
   },
   {
-    question: "I'm hard to grasp, but you will hold me in your hand when you find me. Who am I ?",
-    reponse: "Your breath",
+    question: "තරුෂ ටෝක් කරන කෙල්ල කවුද?",
+    reponse: "හරියටම හරි...දමිෂා...🤭",
   },
   {
-    question: "The hotter I am, the colder I become. Who am I ?",
-    reponse: "coffe",
+    question: "මම උණුසුම් වන තරමට මම සීතල වෙමි. මම කවුද ?",
+    reponse: "කෝපි",
   },
   {
-    question: "I am the stuff of dreams. I cover broken ideas. I change souls into wings. Who am I ?",
-    reponse: "A book",
+    question: "මම සිහින වල වස්තුවයි. මම බිඳුණු අදහස් ආවරණය කරමි. මම ආත්මයන් පියාපත් බවට පත් කරමි. මම කවුද?",
+    reponse: "පොතක්",
   },
   {
-    question: "I am white when I am dirty and black when I am clean. Who am I?",
-    reponse: "A slate",
+    question: "අපිරිසිදු වූ විට මම සුදු වන අතර පිරිසිදු වූ විට කළු ය. මම කවුද?",
+    reponse: " කළු ලෑල්ල ",
   },
   {
-    question: "I can fly without having wings. I can cry without having eyes. Who am I ?",
-    reponse: "A cloud",
+    question: "මට පියාපත් නොමැතිව පියාසර කළ හැකිය, මට ඇස් නොමැතිව අඬන්න පුළුවන්, මම කවුද??",
+    reponse: "වලාකුළක්",
   },
   {
-    question: "I start at night and finish in the morning. Who am I ?",
-    reponse: "The letter 'N'",
+    question: "සීගිරිය ඇයි 8වන පුදුමය උනේ? ?",
+    reponse: "මන් දන්නවනම් තොගෙන් අහන්නේ නැනේ..",
   },
   {
-    question: "I can be read, but you can't write about me. You always give to me, but rarely keep me. Who am I ?",
-    reponse: "A borrowed book",
+    question: "තරුෂ, නම්බර් එක ඉල්ලුවේ කාගේද ?",
+    reponse: "දමිශාගේ",
   },
   {
-    question: "I feed on everything around me, the air, the earth and even the trees. Who am I ?",
-    reponse: "a fire",
+    question: "තරුෂ, නම්බර් එක ඉල්ලුවේ කාගේද ?",
+    reponse: "දමිශාගේ",
   },
   {
-    question: "I am white when I am dirty and black when I am clean. Who am I ?",
-    reponse: "A slate",
+    question: "මහින්ද මහත්තයා නෙලුම් කුලුන හැදුවේ ඇයි ?",
+    reponse: "ඌ නෙමෙයි හැදුවේ,බාස්ලා.. ",
   },
   {
-    question: "I'm liquid, but if you take water away from me, I become solid. Who am I ?",
-    reponse: "tea",
+    question: "තරුෂ, නම්බර් එක ඉල්ලුවේ කාගේද ?",
+    reponse: "Dameesha",
   },
   {
-    question: "I am the beginning of the end and the end of every place. I am the beginning of eternity, the end of time and space. Who am I ?",
-    reponse: "the letter'E'",
+    question: "මහින්ද මහත්තයා නෙලුම් කුලුන හැදුවේ ඇයි ?",
+    reponse: "ඌ නෙමෙයි හැදුවේ,බාස්ලා.. ",
   },
   {
-    question: "I'm hard to grasp, but you will hold me in your hand when you find me. Who am I ?",
-    reponse: "Your breath",
+    question: "මහින්ද මහත්තයා නෙලුම් කුලුන හැදුවේ ඇයි ?",
+    reponse: "ඌ නෙමෙයි හැදුවේ,බාස්ලා.. ",
   },
   ];
   
@@ -126,7 +126,7 @@ france({ nomCom: "riddle", categorie: "Games" }, async (dest, zk, commandeOption
   await zk.sendMessage(
     dest,
     {
-      text: `Riddle: ${devinette.question} . \n you have 30 seconds to think about.`,
+      text: `Riddle: ${devinette.question} . \n උබට තත්පර *30ක්* දෙනවා හරි උත්තරේ කියන්න.`,
     },
     { quoted: ms }
   );
@@ -138,7 +138,7 @@ france({ nomCom: "riddle", categorie: "Games" }, async (dest, zk, commandeOption
   await zk.sendMessage(
     dest,
     {
-      text: `The answer was : ${devinette.reponse}`,
+      text: `*උත්තරේ තමයි* : ${devinette.reponse}`,
     },
     { quoted: ms }
   );

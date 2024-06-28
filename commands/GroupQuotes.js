@@ -32,13 +32,13 @@ france({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions
       fetch('https://animechan.xyz/api/random')
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`*FLASH-MD Quotes*
+          repondre(`*NADEEN-BOT Quotes*
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *France King*`);
+`ᴛʜɪꜱ ꜱʏꜱᴛᴇᴍ ᴄʀᴇᴀᴛᴇ ʙʏ ©ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ` );
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -50,13 +50,13 @@ Powered by *France King*`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`FLASH-MD
+          repondre(`NADEEN-BOT
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *FLASH-MD*`);
+`ᴛʜɪꜱ ꜱʏꜱᴛᴇᴍ ᴄʀᴇᴀᴛᴇ ʙʏ ©ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ` `);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);

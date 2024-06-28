@@ -112,8 +112,8 @@ const devinettes = [
     reponse: "ඌ නෙමෙයි හැදුවේ,බාස්ලා.. ",
   },
   {
-    question: "මහින්ද මහත්තයා නෙලුම් කුලුන හැදුවේ ඇයි ?",
-    reponse: "ඌ නෙමෙයි හැදුවේ,බාස්ලා.. ",
+    question: "තරුස්හගේ කලින් කෑල්ල කවුද ?",
+    reponse: "පියුස්  ",
   },
   ];
   
@@ -126,7 +126,7 @@ france({ nomCom: "riddle", categorie: "Games" }, async (dest, zk, commandeOption
   await zk.sendMessage(
     dest,
     {
-      text: `Riddle: ${devinette.question} . \n උබට තත්පර *30ක්* දෙනවා හරි උත්තරේ කියන්න.`,
+      text: `මං උබෙන් අහන්නේ: ${devinette.question} . \n උබට තත්පර *30ක්* දෙනවා හරි උත්තරේ කියන්න.`,
     },
     { quoted: ms }
   );
@@ -138,7 +138,8 @@ france({ nomCom: "riddle", categorie: "Games" }, async (dest, zk, commandeOption
   await zk.sendMessage(
     dest,
     {
-      text: `*උත්තරේ තමයි* : ${devinette.reponse}`,
+      text: `*උත්තරේ තමයි* : ${devinette.reponse}` 
+        `ᴛʜɪꜱ ꜱʏꜱᴛᴇᴍ ᴄʀᴇᴀᴛᴇ ʙʏ ©ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ`,
     },
     { quoted: ms }
   );

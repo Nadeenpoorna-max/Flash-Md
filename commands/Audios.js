@@ -65,7 +65,7 @@ france (
             }
 
         } else {
-            repondre('Please mention an audio')
+            repondre('හදන්න ඕනේ සින්දුව මෙන්ෂන් කරපං 😒')
         }
     }
 );
@@ -110,7 +110,7 @@ france (
             }
 
         } else {
-            repondre('Please mention an audio')
+            repondre('හදන්න ඕනේ සින්දුව මෙන්ෂන් කරපං 😒')
         }
     }
 );
@@ -146,7 +146,7 @@ france(
           repondre("The command only works with audio messages");
         }
       } else {
-        repondre("Please mention an audio");
+        repondre("හදන්න ඕනේ සින්දුව මෙන්ෂන් කරපං 😒");
       }
     }
   );
@@ -182,7 +182,7 @@ france(
           repondre("The command only works with audio messages");
         }
       } else {
-        repondre("Please mention an audio");
+        repondre("හදන්න ඕනේ සින්දුව මෙන්ෂන් කරපං 😒");
       }
     }
   );
@@ -219,7 +219,7 @@ france(
           repondre("The command only works with audio messages");
         }
       } else {
-        repondre("Please mention an audio");
+        repondre("Pහදන්න ඕනේ සින්දුව මෙන්ෂන් කරපං 😒");
       }
     }
   );
@@ -256,7 +256,7 @@ france(
           repondre("The command only works with audio messages");
         }
       } else {
-        repondre("Please mention an audio");
+        repondre("හදන්න ඕනේ සින්දුව මෙන්ෂන් කරපං 😒");
       }
     }
   );
@@ -293,7 +293,7 @@ france(
           repondre("The command only works with audio messages");
         }
       } else {
-        repondre("Please mention an audio");
+        repondre("හදන්න ඕනේ සින්දුව මෙන්ෂන් කරපං 😒");
       }
     }
   );

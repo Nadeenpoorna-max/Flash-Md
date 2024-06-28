@@ -203,7 +203,7 @@ mediamsg = msgRepondu.videoMessage
 
 
 
-france({ nomCom: "write", categorie: "Conversion", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
+france({ nomCom: "write", categorie: "Conversion",  reaction: "🍀" }, async (origineMessage, zk, commandeOptions) => {
   const { ms, msgRepondu, arg, repondre, nomAuteurMessage } = commandeOptions;
 
   if (!msgRepondu) {
@@ -316,7 +316,7 @@ france({nomCom:"photo",categorie: "Conversion", reaction: "👨🏿‍💻"},asy
         });
 });
 
-france({ nomCom: "trt", categorie: "Conversion", reaction: "👨🏿‍💻" }, async (dest, zk, commandeOptions) => {
+france({ nomCom: "trt", categorie: "Conversion", reac🥓" }, async (dest, zk, commandeOptions) => {
 
   const { msgRepondu, repondre , arg } = commandeOptions;
 
@@ -335,13 +335,13 @@ france({ nomCom: "trt", categorie: "Conversion", reaction: "👨🏿‍💻" }, 
 
         } catch (error) {
           
-          repondre('Mention a texte Message') ;
+          repondre('උබට දාන්න ඕන,එක මෙන්ෂන් කරපන්...') ;
       
         }
 
    } else {
      
-     repondre('Mention a texte Message')
+     repondre('උබට දාන්න ඕන,එක මෙන්ෂන් කරපන්... ')
    }
 
 
@@ -349,11 +349,11 @@ france({ nomCom: "trt", categorie: "Conversion", reaction: "👨🏿‍💻" }, 
 }) ;
 
 
-france({ nomCom: "url", categorie: "General", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
+france({ nomCom: "url", categorie: "General", reaction: "☘" }, async (origineMessage, zk, commandeOptions) => {
   const { msgRepondu, repondre } = commandeOptions;
 
   if (!msgRepondu) {
-      repondre('mention a image or video');
+      repondre('4to එක මෙන්ෂන් කරපං....😂');
       return;
   }
 
@@ -364,7 +364,7 @@ france({ nomCom: "url", categorie: "General", reaction: "👨🏿‍💻" }, asy
   } else if (msgRepondu.imageMessage) {
       mediaPath = await zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage);
   } else {
-      repondre('mention a image or video');
+      repondre('4to එක මෙන්ෂන් කරපං....😂');
       return;
   }
 
